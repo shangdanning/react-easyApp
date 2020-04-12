@@ -4,16 +4,25 @@ import "./index.css";
 // import App from './App';
 // import Game from './ticTacToe/game';
 // import Clock from './baseStudy/Clock';
-import Greeting from "./baseStudy/Greeting";
+// import Greeting from "./baseStudy/Greeting";
+// import LoginControl from "./baseStudy/LoginControl(04-12)";
+// import Mailbox from "./baseStudy/Mailbox(04-12)";
+import PageWarn from "./baseStudy/PageWarn(04-12)";
 import * as serviceWorker from "./serviceWorker";
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 // ReactDOM.render(<Game />, document.getElementById("root"));
 // ReactDOM.render(<Clock name="sdn"/>, document.getElementById("root"));
-ReactDOM.render(
-  <Greeting isLoggedIn={true} />,
-  document.getElementById("root")
-);
+// ReactDOM.render( <LoginControl />, document.getElementById("root"));
+// ReactDOM.render(
+//   <Mailbox unreadMessages={['React', 'Re: React', 'Re:Re: React']} />,
+//   document.getElementById("root")
+// );
+// ReactDOM.render(
+//   <Mailbox unreadMessages={[]} />,
+//   document.getElementById("root")
+// );
+ReactDOM.render( <PageWarn />, document.getElementById("root"));
 //2020-04-02===================================================
 // function tick() {
 //   const element = (
