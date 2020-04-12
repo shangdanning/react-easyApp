@@ -7,7 +7,8 @@ import "./index.css";
 // import Greeting from "./baseStudy/Greeting";
 // import LoginControl from "./baseStudy/LoginControl(04-12)";
 // import Mailbox from "./baseStudy/Mailbox(04-12)";
-import PageWarn from "./baseStudy/PageWarn(04-12)";
+// import PageWarn from "./baseStudy/PageWarn(04-12)";
+import NumberList from "./baseStudy/NumberList(04-12)";
 import * as serviceWorker from "./serviceWorker";
 
 // ReactDOM.render(<App />, document.getElementById('root'));
@@ -22,7 +23,9 @@ import * as serviceWorker from "./serviceWorker";
 //   <Mailbox unreadMessages={[]} />,
 //   document.getElementById("root")
 // );
-ReactDOM.render( <PageWarn />, document.getElementById("root"));
+// ReactDOM.render( <PageWarn />, document.getElementById("root"));
+
+ReactDOM.render(<NumberList numbers={[1, 2, 3, 4, 5]} />, document.getElementById("root"));
 //2020-04-02===================================================
 // function tick() {
 //   const element = (
