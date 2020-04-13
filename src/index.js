@@ -9,7 +9,9 @@ import "./index.css";
 // import Mailbox from "./baseStudy/Mailbox(04-12)";
 // import PageWarn from "./baseStudy/PageWarn(04-12)";
 // import NumberList from "./baseStudy/NumberList(04-12)";
-import NameForm from "./baseStudy/NameForm(04-12)";
+// import NameForm from "./baseStudy/NameForm(04-12)";
+// import Calculator from "./baseStudy/Calculator(04-13)";
+import Calculator from "./baseStudy/Calculator02(04-13)";
 import * as serviceWorker from "./serviceWorker";
 
 // ReactDOM.render(<App />, document.getElementById('root'));
@@ -27,7 +29,8 @@ import * as serviceWorker from "./serviceWorker";
 // ReactDOM.render( <PageWarn />, document.getElementById("root"));
 
 // ReactDOM.render(<NumberList numbers={[1, 2, 3, 4, 5]} />, document.getElementById("root"));
-ReactDOM.render( <NameForm />, document.getElementById("root"));
+// ReactDOM.render( <NameForm />, document.getElementById("root"));
+ReactDOM.render( <Calculator />, document.getElementById("root"));
 //2020-04-02===================================================
 // function tick() {
 //   const element = (
