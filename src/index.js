@@ -11,7 +11,10 @@ import "./index.css";
 // import NumberList from "./baseStudy/NumberList(04-12)";
 // import NameForm from "./baseStudy/NameForm(04-12)";
 // import Calculator from "./baseStudy/Calculator(04-13)";
-import Calculator from "./baseStudy/Calculator02(04-13)";
+// import Calculator from "./baseStudy/Calculator02(04-13)";
+//=====================04-18=============================
+// import Context from "./depthStudy/Context_04_18";
+import Context from "./depthStudy/Context_sum_04_18";
 import * as serviceWorker from "./serviceWorker";
 
 // ReactDOM.render(<App />, document.getElementById('root'));
@@ -30,7 +33,9 @@ import * as serviceWorker from "./serviceWorker";
 
 // ReactDOM.render(<NumberList numbers={[1, 2, 3, 4, 5]} />, document.getElementById("root"));
 // ReactDOM.render( <NameForm />, document.getElementById("root"));
-ReactDOM.render( <Calculator />, document.getElementById("root"));
+// ReactDOM.render( <Calculator />, document.getElementById("root"));
+//=======================04-18=======================================
+ReactDOM.render( <Context />, document.getElementById("root"));
 //2020-04-02===================================================
 // function tick() {
 //   const element = (
