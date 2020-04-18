@@ -14,7 +14,8 @@ import "./index.css";
 // import Calculator from "./baseStudy/Calculator02(04-13)";
 //=====================04-18=============================
 // import Context from "./depthStudy/Context_04_18";
-import Context from "./depthStudy/Context_sum_04_18";
+// import Context from "./depthStudy/Context_sum_04_18";
+import HookContext from "./depthStudy/Hook_Context_sum_04_18";
 import * as serviceWorker from "./serviceWorker";
 
 // ReactDOM.render(<App />, document.getElementById('root'));
@@ -35,7 +36,7 @@ import * as serviceWorker from "./serviceWorker";
 // ReactDOM.render( <NameForm />, document.getElementById("root"));
 // ReactDOM.render( <Calculator />, document.getElementById("root"));
 //=======================04-18=======================================
-ReactDOM.render( <Context />, document.getElementById("root"));
+ReactDOM.render(<HookContext />, document.getElementById("root"));
 //2020-04-02===================================================
 // function tick() {
 //   const element = (

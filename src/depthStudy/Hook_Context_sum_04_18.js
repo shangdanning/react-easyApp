@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./css/base.css";
 // Context 可以让我们无须明确地传遍每一个组件，就能将值深入传递进组件树。
 // 为当前的 theme 创建一个 context（“light”为默认值）。
@@ -30,24 +30,30 @@ function Toolbar() {
     );
 }
 
-class ThemedButton extends React.Component {
-    render() {
+// class ThemedButton extends React.Component {
+//     render() {
 
-        return (
-            <ThemeContext.Consumer>
-                {theme => (
-                    <ColorContext.Consumer>
-                        {
-                            color => (
-                                <button theme={theme} color={color} className="square" />
-                            )
-                        }
-                    </ColorContext.Consumer>
-                )}
-            </ThemeContext.Consumer>
-        );
-        // return <button theme={this.context} color={this.colorContext} className="square" />;
-    }
+//         return (
+//             <ThemeContext.Consumer>
+//                 {theme => (
+//                     <ColorContext.Consumer>
+//                         {
+//                             color => (
+//                                 <button theme={theme} color={color} className="square" />
+//                             )
+//                         }
+//                     </ColorContext.Consumer>
+//                 )}
+//             </ThemeContext.Consumer>
+//         );
+//         // return <button theme={this.context} color={this.colorContext} className="square" />;
+//     }
+// }
+
+//使用hook之后，代码减少了近3/4的行数
+function ThemedButton() {
+    const theme = useContext(ThemeContext);
+    const color = useContext(ColorContext);
+    return (<button theme={theme} color={color} className="square" />);
 }
-
 export default Context;
