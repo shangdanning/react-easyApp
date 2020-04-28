@@ -18,7 +18,9 @@ import "./index.css";
 // import HookContext from "./depthStudy/Hook_Context_sum_04_18";
 //=====================04-28=============================
 // import DynamicContext from "./depthStudy/DynamicContext_04_28/DynamicContext";
-import DeepUpdateContext from "./depthStudy/DeepUpdateContext_04_28/DeepUpdateContext";
+// import DeepUpdateContext from "./depthStudy/DeepUpdateContext_04_28/DeepUpdateContext";
+// import Child from "./depthStudy/TestRender_04_28/child";
+import TestRender from "./depthStudy/TestRender_04_28/TestRender";
 import * as serviceWorker from "./serviceWorker";
 
 // ReactDOM.render(<App />, document.getElementById('root'));
@@ -42,7 +44,10 @@ import * as serviceWorker from "./serviceWorker";
 // ReactDOM.render(<HookContext />, document.getElementById("root"));
 //=======================04-28=======================================
 // ReactDOM.render(<DynamicContext />, document.getElementById("root"));
-ReactDOM.render(<DeepUpdateContext />, document.getElementById("root"));
+// ReactDOM.render(<DeepUpdateContext />, document.getElementById("root"));
+// ReactDOM.render(<Child />, document.getElementById("root"));
+ReactDOM.render(<TestRender />, document.getElementById("root"));
+
 //2020-04-02===================================================
 // function tick() {
 //   const element = (
